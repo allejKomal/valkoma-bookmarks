@@ -8,7 +8,7 @@ function App() {
 
   return (
     <TooltipProvider>
-      <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme">
+      <ThemeProvider defaultTheme="light" storageKey="vite-ui-theme" showLoader={true}>
         <BookmarkWrapper />
         <div className="fixed bottom-4 right-4 z-50">
           <ModeToggle />
