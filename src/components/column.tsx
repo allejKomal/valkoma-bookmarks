@@ -1,6 +1,5 @@
 import type { ColumnDef } from '@tanstack/react-table';
 import { Tooltip, TooltipContent, TooltipTrigger, Badge } from 'valkoma-package/primitive';
-import { Star, ExternalLink } from 'lucide-react';
 import type { Bookmark } from '@/utils/note';
 import { DataTableColumnHeader } from './data-table-column-header';
 
